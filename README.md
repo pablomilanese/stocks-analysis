@@ -71,7 +71,7 @@ How the different time measurements compare side-by-side:
 
 <img width="474" alt="Screen Shot 2022-05-25 at 2 34 33 AM" src="https://user-images.githubusercontent.com/105120795/170206983-6624f836-e318-4321-8966-ef941080efb4.png">
 
-Even though in both macros the results are returned in less than a second, it is clear that the refactored code shorted the run time.
+Even though in both macros the results are returned in less than a second, it is clear that the refactored code shortened the run time.
 
 ## Summary
 
