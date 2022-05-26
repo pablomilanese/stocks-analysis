@@ -77,11 +77,26 @@ Even though in both macros the results are returned in less than a second, it is
 
 ### Advantages of Refactoring Code
 
+The main advantages of refactoring code are making it more efficient and easier to understand. Although we might have an initial outline for our code we may overlook other ways to get the same results in less steps or making the code run in shorter periods of time. Because our initial purpose with any macro is to make it work we may take a longer route to get there. Refactoring code that already works allows us to focus on what it does and how can we streamline it. It also gives us a second chance to make sure the code will make sense to anybody that has to analyze it. Just like an essay, our work may diverge from the original outline and become harder to understand. 
+
 ### Disadvantages of Refactoring Code
+
+There are some disadvantages of refactoring code:
+
+It can be time consuming - refactoring code can be counterproductive if the programer does not have a lot of time to work. The pressure of deadlines can make it harder for them to fully understand how the original code works and find where it can be improved.
+
+It can have diminishing returns - after a programer refactors code they might come to the realization that the changes they have done do not have a huge impact on the performance or readability of the code. When confronting the challenge of refactoring code it is important to keep track of how long the process it taking. If the refactored code does not improve the performance of the original macros, the programmer has to question how helpful his re-work has been so far and if it's worth working on it further.
+
+It can over-complicate code that was already working properly - while trying to refactor code the programer may end up making code harder to understand or may end up developing errors that the original code did not present.
+
 
 ### Advantages of the Original Code
 
+The main advantage of the original code if that it fullfills it's original purpose: make it easier for Steve to analyze the stock market at the click of a button. The code already has conditional formatting to make it easier for the user to navigate results and the macro already has comments explaining how it works. In the worst case scenario Steve has to analyze a large amount of data that may end up taking minutes instead of seconds. Even then, the only thing Steve has to do is press a button and our macro will do the rest.
+
 ### Disadvantages of the Refactored VBA Script
+
+One of the disadvantages of the refactored VBA script is the additional time it took to complete the project. Although the refactored code did run in a shorter amount of time, the difference was too small to justify the time spent on it. It would be interesting to run larger amounts of data to see how both macros perform. Although we can mention to Steve that our new work runs faster the results are too close to each other to make an impression on him. Refactoring is a process that will mostly interest other programers. If we have to present a project to an individual that has little understanding of the intricacies of programming they may see our additional work as a negative instead of a positive.
 
 
 
